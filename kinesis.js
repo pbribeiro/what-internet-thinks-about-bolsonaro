@@ -4,6 +4,10 @@ const AWS = require("aws-sdk")
 
 AWS.config.region = "us-east-1"
 
+//If necessary, add access and secret key
+//NOT RECOMMENDED FOR PRODUCTION ENVIROMENTS
+// AWS.config.accessKeyId = ""
+// AWS.config.secretAccessKey = ""
 
 var kinesis = new AWS.Kinesis();
 
