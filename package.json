@@ -1,0 +1,15 @@
+{
+  "name": "amazon_comprehend_neymar_test",
+  "version": "1.0.0",
+  "description": "This is a simple project to test amazon comprehend and analyze what twitter think about the football player \"Neymar JR\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro Ribeiro",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.370.0",
+    "twitter": "^1.7.1"
+  }
+}
